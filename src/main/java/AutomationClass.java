@@ -1,6 +1,4 @@
-package main.java;
-
-public class HelloPrinter {
+public class AutomationClass {
     public static void main(String[] args) {
         if (args.length != 1) {
             System.out.println("Usage: java HelloPrinter <NAME>");
@@ -20,4 +18,5 @@ public class HelloPrinter {
             }
         }
     }
+
 }
